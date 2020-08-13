@@ -1,0 +1,29 @@
+{
+  "name": "vue3-fp",
+  "version": "0.0.1",
+  "description": "Functional Library for Vue 3",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "author": "oomusou <oomusou@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "babel src --out-dir dist",
+    "all": "yarn clean && cross-env NODE_ENV=production yarn build && yarn publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oomusou/vue3-fp.git"
+  },
+  "homepage": "https://github.com/oomusou/vue3-fp.git",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "cross-env": "^7.0.2",
+    "rimraf": "^3.0.2"
+  }
+}
