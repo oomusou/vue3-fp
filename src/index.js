@@ -1,2 +1,2 @@
 // composition
-export { effect } from './composition/effect.js'
+export { effect } from './reactivity/effect.js'
