@@ -1,7 +1,8 @@
-import { pipe, always, prop } from 'ramda'
+import { pipe, always } from 'ramda'
+import { unref } from 'vue'
 
-export let join = o => pipe(
+export let unwrap = o => pipe(
   always(o),
-  prop('value')
+  unref
 )
 
