@@ -1,6 +1,6 @@
 {
   "name": "vue3-fp",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "Functional Library for Vue 3",
   "main": "dist/index.js",
   "files": [
@@ -20,7 +20,7 @@
   "homepage": "https://github.com/oomusou/vue3-fp.git",
   "dependencies": {
     "ramda": "^0.27.1",
-    "vue": "^3.0.0-rc.10"
+    "vue": "^3.0.0-0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
