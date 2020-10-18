@@ -1,6 +1,6 @@
 {
   "name": "vue3-fp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Functional Library for Vue 3",
   "main": "dist/index.js",
   "files": [
