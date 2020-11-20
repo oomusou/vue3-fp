@@ -1,4 +1,7 @@
 import { curry } from 'ramda'
 
-let _effect = (o, x) => o['value'] = x
-export let effect = curry(_effect)
+// _write :: (Ref a, a) -> a
+let _write = (ref, val) => ref['value'] = val
+
+// write :: Ref a -> a -> a
+export let write = curry(_write)

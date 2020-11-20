@@ -9,12 +9,12 @@ $ yarn add vue3-fp
 ### Usage
 
 ```
-import { effect } from 'vue3-fp'
+import { write } from 'vue3-fp'
 
 let onClick = pipe(
   always(counter),
   prop('value'),
   inc,
-  effect(counter)
+  write(counter)
 )
 ```
