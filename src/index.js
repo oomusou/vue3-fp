@@ -1,5 +1,7 @@
 export { write } from './write.js'
 export { read } from './read.js'
 export { mark } from './mark.js'
+export { calculated } from './calculated.js'
+export { guard } from './guard.js'
+export { eject } from './eject.js'
 export { effect } from './effect.js'
-export { calculated } from './calculated'
